@@ -27,11 +27,23 @@ class PriorityRedisQueue(BaseRedisQueue):
         -1, -1 : 取权重最大的
         :return:
         """
-        ret = self.redis.zrange(self.name, -1, -1)
+        if self.use_lock:
+            from .redis_lock import RedisLock
+            if self.lock is None:
+                self.lock = RedisLock(**self.redis_lock_config)
 
-        if not ret:
-            raise self.Empty
+            if self.lock.acquire_lock():
+                ret = self.redis.zrange(self.name, -1, -1)
+                if not ret:
+                    raise self.Empty
 
-        self.redis.zrem(self.name, ret[0])
-        # return pickle.loads(ret)
-        return ret
+                self.redis.zrem(self.name, ret[0])
+                self.lock.release_lock()
+                return ret
+        else:
+            ret = self.redis.zrange(self.name, -1, -1)
+            if not ret:
+                raise self.Empty
+
+            self.redis.zrem(self.name, ret[0])
+            return ret

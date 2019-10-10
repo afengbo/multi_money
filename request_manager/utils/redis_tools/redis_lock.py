@@ -14,7 +14,7 @@ class RedisLock(object):
         thread_id = socket.gethostname() + str(os.getpid()) + threading.current_thread().name
         return thread_id
 
-    def acquire_lock(self, thread_id=None, expire=10):
+    def acquire_lock(self, thread_id=None, expire=10, block=True):
         """
         :param thread_id: 表明每个线程的唯一标识值，用来判断解锁
         :param expire: 锁过期时间
@@ -22,7 +22,15 @@ class RedisLock(object):
         """
         if thread_id is None:
             thread_id = self._get_thread_id()
-        print(thread_id)
+
+        while block:
+            # 如果lock_name 存在，ret=0，否则ret=1
+            ret = self.redis.setnx(self.lock_name, pickle.dumps(thread_id))
+            if ret == 1:
+                self.redis.expire(self.lock_name, expire)
+                print("上锁成功")
+                return True
+
         # 如果lock_name 存在，ret=0，否则ret=1
         ret = self.redis.setnx(self.lock_name, pickle.dumps(thread_id))
         if ret == 1:

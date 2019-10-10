@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/test3.py" line="20" mnemonic="9" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="45e71122-ea3c-4629-9413-d2673c9861eb" name="Default Changelist" comment="" />
+    <list default="true" id="45e71122-ea3c-4629-9413-d2673c9861eb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/request_manager/utils/redis_tools/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/multi_money.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/multi_money.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis_lock.py" beforeDir="false" afterPath="$PROJECT_DIR$/request_manager/utils/redis_tools/redis_lock.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis_queue/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis_queue/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/request_manager/utils/redis_tools/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis_queue/fifo_redis_queue.py" beforeDir="false" afterPath="$PROJECT_DIR$/request_manager/utils/redis_tools/fifo_redis_queue.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis_queue/lifo_redis_queue.py" beforeDir="false" afterPath="$PROJECT_DIR$/request_manager/utils/redis_tools/lifo_redis_queue.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis_queue/priority_redis_queue.py" beforeDir="false" afterPath="$PROJECT_DIR$/request_manager/utils/redis_tools/priority_redis_queue.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/request_manager/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/request_manager/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test3.py" beforeDir="false" afterPath="$PROJECT_DIR$/test3.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -9,17 +26,21 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/multi_money$selenium_chrome.coverage" NAME="selenium-chrome Coverage Results" MODIFIED="1565135259332" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/selenium-chrome-docker" />
-    <SUITE FILE_PATH="coverage/multi_money$bloom_redis.coverage" NAME="bloom_redis Coverage Results" MODIFIED="1566264050314" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bloom_filter" />
     <SUITE FILE_PATH="coverage/multi_money$demo.coverage" NAME="demo Coverage Results" MODIFIED="1565244659348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/websocket-demo" />
-    <SUITE FILE_PATH="coverage/multi_money$test3.coverage" NAME="test3 Coverage Results" MODIFIED="1570493555061" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/multi_money$test3.coverage" NAME="test3 Coverage Results" MODIFIED="1570520416606" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/multi_money$test2__1_.coverage" NAME="test2 (1) Coverage Results" MODIFIED="1566890323810" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/multi_money$demo1.coverage" NAME="demo1 Coverage Results" MODIFIED="1569918509243" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/request_manager" />
+    <SUITE FILE_PATH="coverage/multi_money$kafka_producer.coverage" NAME="kafka_producer Coverage Results" MODIFIED="1570596800417" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/kafka_demo" />
+    <SUITE FILE_PATH="coverage/multi_money$producer.coverage" NAME="producer Coverage Results" MODIFIED="1570664297298" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rabbitmq_demo/1. no_exchange/1. no_ack" />
     <SUITE FILE_PATH="coverage/multi_money$test.coverage" NAME="test Coverage Results" MODIFIED="1566011615963" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/multi_money$spider.coverage" NAME="spider Coverage Results" MODIFIED="1565077994309" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/multi_money$redis_lock.coverage" NAME="redis_lock Coverage Results" MODIFIED="1570509486545" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/multi_money$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1566022459356" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/simhash_filter" />
     <SUITE FILE_PATH="coverage/multi_money$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1566021824024" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/simhash_filter" />
+    <SUITE FILE_PATH="coverage/multi_money$selenium_chrome.coverage" NAME="selenium-chrome Coverage Results" MODIFIED="1565135259332" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/selenium-chrome-docker" />
+    <SUITE FILE_PATH="coverage/multi_money$bloom_redis.coverage" NAME="bloom_redis Coverage Results" MODIFIED="1566264050314" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bloom_filter" />
+    <SUITE FILE_PATH="coverage/multi_money$consumer.coverage" NAME="consumer Coverage Results" MODIFIED="1570664898394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rabbitmq_demo/1. no_exchange/1. no_ack" />
+    <SUITE FILE_PATH="coverage/multi_money$spider.coverage" NAME="spider Coverage Results" MODIFIED="1565077994309" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/multi_money$kafka_consumer.coverage" NAME="kafka_consumer Coverage Results" MODIFIED="1570596848767" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/kafka_demo" />
     <SUITE FILE_PATH="coverage/multi_money$multi_hash.coverage" NAME="multi_hash Coverage Results" MODIFIED="1566259685713" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bloom_filter" />
   </component>
   <component name="FUSProjectUsageTrigger">
@@ -44,32 +65,35 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="Dockerfile" value="4" />
-          <entry key="py" value="79" />
-          <entry key="yml" value="4" />
+          <entry key="Dockerfile" value="9" />
+          <entry key="gitignore" value="1" />
+          <entry key="py" value="102" />
+          <entry key="yml" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Dockerfile" value="4" />
-          <entry key="Python" value="79" />
-          <entry key="YAML" value="4" />
+          <entry key="Dockerfile" value="9" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Python" value="102" />
+          <entry key="YAML" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Dockerfile" value="228" />
+          <entry key="Dockerfile" value="230" />
           <entry key="dummy" value="17" />
-          <entry key="py" value="7374" />
-          <entry key="yml" value="85" />
+          <entry key="gitignore" value="10" />
+          <entry key="py" value="8173" />
+          <entry key="yml" value="161" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Dockerfile" value="228" />
-          <entry key="PLAIN_TEXT" value="17" />
-          <entry key="Python" value="7374" />
-          <entry key="YAML" value="85" />
+          <entry key="Dockerfile" value="230" />
+          <entry key="PLAIN_TEXT" value="27" />
+          <entry key="Python" value="8173" />
+          <entry key="YAML" value="161" />
         </counts>
       </usages-collector>
     </session>
@@ -77,25 +101,33 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/redis_queue/base.py">
+        <entry file="file://$PROJECT_DIR$/python-dev/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="25" column="62" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="62" />
-              <folding>
-                <element signature="e#213#224#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="620">
+              <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/redis_lock.py">
+        <entry file="file://$PROJECT_DIR$/rabbitmq_demo/1.no_exchange/3.no_ack/consumer.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kafka_demo/kafka_producer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="453">
-              <caret line="55" column="33" lean-forward="true" selection-start-line="55" selection-start-column="33" selection-end-line="55" selection-end-column="33" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="421">
+              <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kafka_demo/kafka_consumer.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -113,10 +145,19 @@
     <findStrings>
       <find>url</find>
       <find>self.redis.</find>
+      <find>alpine</find>
+      <find>apk add</find>
+      <find>yum install</find>
     </findStrings>
+    <replaceStrings>
+      <replace>yum install -y</replace>
+    </replaceStrings>
     <dirStrings>
       <dir>E:\python\multi_money</dir>
     </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -151,10 +192,23 @@
         <option value="$PROJECT_DIR$/request_manager/demo1.py" />
         <option value="$PROJECT_DIR$/redis_queue/lifo_redis_queue.py" />
         <option value="$PROJECT_DIR$/redis_queue/fifo_redis_queue.py" />
-        <option value="$PROJECT_DIR$/redis_queue/base.py" />
         <option value="$PROJECT_DIR$/redis_queue/priority_redis_queue.py" />
-        <option value="$PROJECT_DIR$/test3.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/redis_lock.py" />
+        <option value="$PROJECT_DIR$/redis_queue/base.py" />
+        <option value="$PROJECT_DIR$/redis_tools/base.py" />
+        <option value="$PROJECT_DIR$/redis_tools/priority_redis_queue.py" />
+        <option value="$PROJECT_DIR$/redis_tools/__init__.py" />
+        <option value="$PROJECT_DIR$/test3.py" />
+        <option value="$PROJECT_DIR$/request_manager/__init__.py" />
+        <option value="$PROJECT_DIR$/kafka_demo/docker-compose.yml" />
+        <option value="$PROJECT_DIR$/kafka_demo/kafka_producer.py" />
+        <option value="$PROJECT_DIR$/kafka_demo/kafka_consumer.py" />
+        <option value="$PROJECT_DIR$/kafka_demo/Dockerfile" />
+        <option value="$PROJECT_DIR$/rabbitmq_demo/1. no_exchange/1. no_ack/producer.py" />
+        <option value="$PROJECT_DIR$/python-dev/Dockerfile" />
+        <option value="$PROJECT_DIR$/rabbitmq_demo/Dockerfile" />
+        <option value="$PROJECT_DIR$/rabbitmq_demo/1. no_exchange/1. no_ack/consumer.py" />
       </list>
     </option>
   </component>
@@ -170,6 +224,7 @@
     <option name="width" value="1380" />
     <option name="height" value="744" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -186,7 +241,23 @@
             <path>
               <item name="multi_money" type="b2602c69:ProjectViewProjectNode" />
               <item name="multi_money" type="462c0819:PsiDirectoryNode" />
-              <item name="redis_queue" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka_demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="multi_money" type="b2602c69:ProjectViewProjectNode" />
+              <item name="multi_money" type="462c0819:PsiDirectoryNode" />
+              <item name="python-dev" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="multi_money" type="b2602c69:ProjectViewProjectNode" />
+              <item name="multi_money" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbitmq_demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="multi_money" type="b2602c69:ProjectViewProjectNode" />
+              <item name="multi_money" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbitmq_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="1.no_exchange" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="multi_money" type="b2602c69:ProjectViewProjectNode" />
@@ -200,14 +271,20 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/python-dev/Dockerfile" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\python\multi_money\rabbitmq_demo" />
+      <recent name="E:\python\multi_money\rabbitmq_demo\1. no_exchange\1. no_ack" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\python\multi_money\rabbitmq_demo" />
       <recent name="E:\python\multi_money\request_manager\utils" />
+      <recent name="E:\python\multi_money\redis_queue" />
       <recent name="E:\python\multi_money\filter_class" />
       <recent name="E:\python\multi_money\spider_init" />
     </key>
@@ -224,8 +301,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.redis_lock">
-    <configuration name="bloom_redis" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.consumer">
+    <configuration name="consumer" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="multi_money" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -233,12 +310,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bloom_filter" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/rabbitmq_demo/1. no_exchange/1. no_ack" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bloom_filter/bloom_redis.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/rabbitmq_demo/1. no_exchange/1. no_ack/consumer.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -247,7 +324,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="demo1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="kafka_consumer" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="multi_money" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -255,12 +332,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/request_manager" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/kafka_demo" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/request_manager/demo1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/kafka_demo/kafka_consumer.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -269,7 +346,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="redis_lock" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="kafka_producer" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="multi_money" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -277,12 +354,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/kafka_demo" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/redis_lock.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/kafka_demo/kafka_producer.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -291,20 +368,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test2 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="producer" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="multi_money" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="C:\Users\lenovo\AppData\Local\Programs\Python\Python37\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/rabbitmq_demo/1. no_exchange/1. no_ack" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/rabbitmq_demo/1. no_exchange/1. no_ack/producer.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -313,42 +390,31 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test3" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="multi_money" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test3.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+    <configuration name="rabbitmq_demo/Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="sourceFilePath" value="rabbitmq_demo/Dockerfile" />
+          <option name="startBrowserSettings">
+            <browser url="http://127.0.0.1" />
+          </option>
+        </settings>
+      </deployment>
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.bloom_redis" />
-      <item itemvalue="Python.test2 (1)" />
-      <item itemvalue="Python.demo1" />
-      <item itemvalue="Python.test3" />
-      <item itemvalue="Python.redis_lock" />
+      <item itemvalue="Python.kafka_producer" />
+      <item itemvalue="Python.kafka_consumer" />
+      <item itemvalue="Docker.rabbitmq_demo/Dockerfile" />
+      <item itemvalue="Python.producer" />
+      <item itemvalue="Python.consumer" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.redis_lock" />
-        <item itemvalue="Python.test3" />
-        <item itemvalue="Python.demo1" />
-        <item itemvalue="Python.test2 (1)" />
-        <item itemvalue="Python.bloom_redis" />
+        <item itemvalue="Python.consumer" />
+        <item itemvalue="Python.producer" />
+        <item itemvalue="Docker.rabbitmq_demo/Dockerfile" />
+        <item itemvalue="Python.kafka_consumer" />
+        <item itemvalue="Python.kafka_producer" />
       </list>
     </recent_temporary>
   </component>
@@ -377,23 +443,23 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12899786" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1391258" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.29035753" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.329718" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
-      <window_info anchor="bottom" id="Docker" order="7" weight="0.33802816" />
+      <window_info anchor="bottom" id="Docker" order="7" weight="0.3373102" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053304" side_tool="true" weight="0.32936078" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3033586" />
-      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.49946696" weight="0.1603467" />
-      <window_info anchor="bottom" id="File Transfer" order="13" weight="0.32936078" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.25813448" />
+      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.49946696" weight="0.159436" />
+      <window_info anchor="bottom" id="File Transfer" order="13" weight="0.3286334" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -408,69 +474,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/spider_init/websocket-demo/demo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="21" column="19" lean-forward="true" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider_init/selenium-chrome-docker/docker-compose.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" column="16" lean-forward="true" selection-end-line="14" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider_init/appium-docker/docker-compose.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="16" column="33" lean-forward="true" selection-end-line="16" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider_init/appium-docker/appium_android.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="19" column="18" lean-forward="true" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider_init/selenium-chrome-docker/baidu_spider.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" column="13" lean-forward="true" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider_init/spider.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/在职加薪/1-3 爬虫数据去重方案/资料/课程代码/demo1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider_init/docker-dir/docker_compose.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="19" lean-forward="true" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/1997598764/1170049292/sqlalchemy/sql/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="288" selection-start-line="288" selection-end-line="288" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/request_manager/utils/filter_class/information_summary_filter/mysql_filter.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="279">
@@ -541,11 +544,6 @@
         <state relative-caret-position="-960" />
       </provider>
     </entry>
-    <entry file="file://E:/在职加薪/1-4 爬虫请求管理/资料/课程代码/2.未加锁版request_manager/reuquest_manager/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2100" />
-      </provider>
-    </entry>
     <entry file="file://E:/在职加薪/1-4 爬虫请求管理/资料/课程代码/2.未加锁版request_manager/reuquest_manager/utils/filter_class/information_summary_filter/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="178">
@@ -594,13 +592,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/request_manager/request_filter/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="45" selection-start-line="45" selection-end-line="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/request_manager/utils/filter_class/information_summary_filter/memory_filter.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -622,20 +613,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://E:/在职加薪/1-4 爬虫请求管理/资料/课程代码/1.redis队列和分布式锁/usage_demo.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://E:/在职加薪/1-4 爬虫请求管理/资料/课程代码/1.redis队列和分布式锁/redis_tools/priority_redis_queue.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/redis_queue/fifo_redis_queue.py">
+    <entry file="file://$PROJECT_DIR$/request_manager/utils/redis_tools/fifo_redis_queue.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/redis_queue/lifo_redis_queue.py">
+    <entry file="file://$PROJECT_DIR$/request_manager/utils/redis_tools/lifo_redis_queue.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-line="5" selection-end-column="37" />
@@ -654,13 +642,6 @@
         <state relative-caret-position="-1260" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/redis_queue/priority_redis_queue.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="36" column="18" lean-forward="true" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/1642131631/1170049292/redis/client.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="429">
@@ -668,32 +649,164 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test3.py">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+        <state>
+          <caret column="6" lean-forward="true" selection-start-column="6" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/redis_queue/base.py">
+    <entry file="file://$PROJECT_DIR$/request_manager/utils/redis_tools/redis_lock.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="25" column="62" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="62" />
+        <state relative-caret-position="160">
+          <caret line="8" column="50" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/request_manager/utils/redis_tools/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="18" column="27" lean-forward="true" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/request_manager/utils/redis_tools/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="620">
+          <caret line="43" column="28" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="28" />
           <folding>
             <element signature="e#213#224#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/redis_lock.py">
+    <entry file="file://$PROJECT_DIR$/request_manager/utils/redis_tools/priority_redis_queue.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="55" column="33" lean-forward="true" selection-start-line="55" selection-start-column="33" selection-end-line="55" selection-end-column="33" />
+        <state relative-caret-position="345">
+          <caret line="42" column="13" lean-forward="true" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/在职加薪/1-4 爬虫请求管理/资料/课程代码/1.redis队列和分布式锁/redis_tools/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://E:/在职加薪/1-4 爬虫请求管理/资料/课程代码/1.redis队列和分布式锁/usage_demo.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://E:/在职加薪/1-4 爬虫请求管理/资料/课程代码/2.未加锁版request_manager/usage_demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
           <folding>
-            <element signature="e#0#13#0" expanded="true" />
+            <element signature="e#0#27#0" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/request_manager/request_filter/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/在职加薪/1-4 爬虫请求管理/资料/课程代码/2.未加锁版request_manager/reuquest_manager/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="30" lean-forward="true" selection-end-line="150" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/request_manager/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="135" lean-forward="true" selection-start-line="135" selection-end-line="135" />
+          <folding>
+            <element signature="e#280#807#0" />
+            <element signature="e#861#1095#0" />
+            <element signature="e#1147#1390#0" />
+            <element signature="e#1447#2218#0" />
+            <element signature="e#2248#2776#0" />
+            <element signature="e#2830#4080#0" />
+            <element signature="e#4094#4374#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/-295906927/confluent_kafka/cimpl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="273" column="8" selection-start-line="273" selection-start-column="8" selection-end-line="273" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kafka_demo/kafka_consumer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kafka_demo/kafka_producer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq_demo/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="19" column="45" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kafka_demo/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="33" column="63" lean-forward="true" selection-start-line="33" selection-start-column="63" selection-end-line="33" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq_demo/1. no_exchange/1. no_ack/producer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/-295906927/-337502517/pika/adapters/blocking_connection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="1586" column="30" selection-start-line="1586" selection-start-column="22" selection-end-line="1586" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq_demo/1. no_exchange/1. no_ack/consumer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python-dev/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="620">
+          <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq_demo/1.no_exchange/3.no_ack/consumer.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
