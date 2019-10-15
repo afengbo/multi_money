@@ -161,11 +161,22 @@ class DoubanBook(object):
 
         return data
 
+    def store_to_json(self, data, filename):
+        import json
+        with open(filename, "w") as file:
+            # ensure_ascii=False，保证存储进去后，不是unicode类型数据
+            file.write(json.dumps(data, indent=2, ensure_ascii=False))
+
 
 if __name__ == '__main__':
     book_url = "https://book.douban.com/subject/25862578/"
-
     spider = DoubanBook()
+
+    tags_data = {}
+    for bt, st in spider.get_tags():
+        tags_data[bt[0]] = st
+
     detail = spider.get_book_detail(book_url)
-    import json
-    print(json.dumps(detail, indent=2))
+    new_detail = spider.clean_detail(detail)
+    spider.store_to_json(tags_data, "tags.json")
+    spider.store_to_json(new_detail, "%s.json" % new_detail["title"])
