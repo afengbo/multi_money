@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/request/test3.py" line="20" mnemonic="9" />
+    <bookmark url="file://$PROJECT_DIR$/data_dealWith/sqlalchemy_code/main.py" line="22" mnemonic="9" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="45e71122-ea3c-4629-9413-d2673c9861eb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/data_dealWith/douban/4data_type.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_dealWith/douban/4data_type.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_dealWith/douban/1get_tags.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_dealWith/douban/get_tags1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_dealWith/douban/2get_multi_pages.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_dealWith/douban/get_multi_pages2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_dealWith/douban/2get_one_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_dealWith/douban/get_one_page2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_dealWith/douban/3get_detail_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_dealWith/douban/get_detail_page3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_dealWith/douban/4data_type.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_dealWith/douban/data_type4.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,6 +50,7 @@
     <SUITE FILE_PATH="coverage/multi_money$3get_detail_page.coverage" NAME="3get_detail_page Coverage Results" MODIFIED="1571108574978" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_dealWith/douban" />
     <SUITE FILE_PATH="coverage/multi_money$get_tags.coverage" NAME="get_tags Coverage Results" MODIFIED="1571044295910" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_dealWith/douban" />
     <SUITE FILE_PATH="coverage/multi_money$demo3.coverage" NAME="demo3 Coverage Results" MODIFIED="1570855763372" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_dealWith" />
+    <SUITE FILE_PATH="coverage/multi_money$douban_table.coverage" NAME="douban_table Coverage Results" MODIFIED="1571122635603" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_dealWith/sqlalchemy_code" />
     <SUITE FILE_PATH="coverage/multi_money$pymysql_test.coverage" NAME="pymysql_test Coverage Results" MODIFIED="1571021586220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_dealWith/database" />
     <SUITE FILE_PATH="coverage/multi_money$spider.coverage" NAME="spider Coverage Results" MODIFIED="1565077994309" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/multi_money$pyexecjs_demo2.coverage" NAME="pyexecjs_demo2 Coverage Results" MODIFIED="1570862023749" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_dealWith/js2py &amp; pyexecjs" />
@@ -93,7 +99,7 @@
           <entry key="gitignore" value="1" />
           <entry key="js" value="1" />
           <entry key="json" value="1" />
-          <entry key="py" value="144" />
+          <entry key="py" value="156" />
           <entry key="sql" value="5" />
           <entry key="test_table" value="1" />
           <entry key="test_table_id_seq" value="1" />
@@ -107,7 +113,7 @@
           <entry key="JSON" value="1" />
           <entry key="JavaScript" value="1" />
           <entry key="PLAIN_TEXT" value="3" />
-          <entry key="Python" value="144" />
+          <entry key="Python" value="156" />
           <entry key="SQL" value="1" />
           <entry key="Scratch" value="5" />
           <entry key="YAML" value="5" />
@@ -117,10 +123,10 @@
         <counts>
           <entry key="Dockerfile" value="251" />
           <entry key="config" value="1" />
-          <entry key="dummy" value="30" />
+          <entry key="dummy" value="43" />
           <entry key="gitignore" value="10" />
           <entry key="js" value="1" />
-          <entry key="py" value="9009" />
+          <entry key="py" value="9207" />
           <entry key="sql" value="15" />
           <entry key="txt" value="32" />
           <entry key="yml" value="161" />
@@ -130,8 +136,8 @@
         <counts>
           <entry key="Dockerfile" value="251" />
           <entry key="JavaScript" value="1" />
-          <entry key="PLAIN_TEXT" value="73" />
-          <entry key="Python" value="9009" />
+          <entry key="PLAIN_TEXT" value="86" />
+          <entry key="Python" value="9207" />
           <entry key="Scratch" value="15" />
           <entry key="YAML" value="161" />
         </counts>
@@ -141,36 +147,17 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data_dealWith/Dockerfile">
+        <entry file="file://$PROJECT_DIR$/doubanBookSpider/spider/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="439">
-              <caret line="35" column="46" lean-forward="true" selection-start-line="35" selection-start-column="46" selection-end-line="35" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data_dealWith/douban/3get_detail_page.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="280">
+              <caret line="14" column="28" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/data_dealWith/douban/4data_type.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="512">
-              <caret line="165" column="41" lean-forward="true" selection-start-line="165" selection-start-column="41" selection-end-line="165" selection-end-column="41" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/data_dealWith/mongoengine_code/main.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -194,12 +181,15 @@
       <find>sqlalchemy</find>
       <find>pyexecjs</find>
       <find>ipaddress</find>
+      <find>DoubanBook</find>
+      <find>ForeignKey</find>
     </findStrings>
     <replaceStrings>
       <replace>yum install -y</replace>
     </replaceStrings>
     <dirStrings>
       <dir>E:\python\multi_money</dir>
+      <dir>E:\python\multi_money\data_dealWith</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -208,13 +198,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/redis_queue/priority_redis_queue.py" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/redis_lock.py" />
-        <option value="$PROJECT_DIR$/redis_queue/base.py" />
-        <option value="$PROJECT_DIR$/redis_tools/base.py" />
-        <option value="$PROJECT_DIR$/redis_tools/priority_redis_queue.py" />
-        <option value="$PROJECT_DIR$/redis_tools/__init__.py" />
         <option value="$PROJECT_DIR$/request_manager/__init__.py" />
         <option value="$PROJECT_DIR$/kafka_demo/docker-compose.yml" />
         <option value="$PROJECT_DIR$/kafka_demo/kafka_producer.py" />
@@ -259,6 +242,13 @@
         <option value="$PROJECT_DIR$/data_dealWith/Dockerfile" />
         <option value="$PROJECT_DIR$/data_dealWith/douban/3get_detail_page.py" />
         <option value="$PROJECT_DIR$/data_dealWith/douban/4data_type.py" />
+        <option value="$PROJECT_DIR$/data_dealWith/sqlalchemy_code/douban_table.py" />
+        <option value="$PROJECT_DIR$/data_dealWith/sqlalchemy_code/main.py" />
+        <option value="$PROJECT_DIR$/doubanBookSpider/doubanBookSpider/__init__.py" />
+        <option value="$PROJECT_DIR$/doubanBookSpider/spider/models.py" />
+        <option value="$PROJECT_DIR$/doubanBookSpider/doubanBookSpider/settings.py" />
+        <option value="$PROJECT_DIR$/data_dealWith/mongoengine_code/models.py" />
+        <option value="$PROJECT_DIR$/data_dealWith/mongoengine_code/main.py" />
       </list>
     </option>
   </component>
@@ -299,7 +289,7 @@
               <item name="multi_money" type="b2602c69:ProjectViewProjectNode" />
               <item name="multi_money" type="462c0819:PsiDirectoryNode" />
               <item name="data_dealWith" type="462c0819:PsiDirectoryNode" />
-              <item name="douban" type="462c0819:PsiDirectoryNode" />
+              <item name="mongoengine_code" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="multi_money" type="b2602c69:ProjectViewProjectNode" />
@@ -346,7 +336,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.3get_detail_page">
+  <component name="RunManager" selected="Python.douban_table">
     <configuration name="3get_detail_page" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="multi_money" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -360,7 +350,29 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data_dealWith/douban/3get_detail_page.py" />
+      <option name="SCRIPT_NAME" value="E:\python\multi_money\data_dealWith\douban\get_detail_page3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="douban_table" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="multi_money" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data_dealWith/sqlalchemy_code" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="E:\python\multi_money\data_dealWith\sqlalchemy_code\models.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -382,7 +394,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="E:\python\multi_money\data_dealWith\douban\1get_tags.py" />
+      <option name="SCRIPT_NAME" value="E:\python\multi_money\data_dealWith\douban\get_tags1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -435,52 +447,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Docker Image" type="docker-deploy" factoryName="docker-image" temporary="true" server-name="Docker">
-      <deployment type="docker-image">
-        <settings>
-          <option name="JSONFilePath" value="" />
-          <option name="command" value="" />
-          <option name="commandLineOptions" value="--network host" />
-          <option name="containerName" value="postgres" />
-          <option name="entrypoint" value="" />
-          <option name="envVars">
-            <list>
-              <DockerEnvVarImpl>
-                <option name="name" value="POSTGRES_USER" />
-                <option name="value" value="root" />
-              </DockerEnvVarImpl>
-              <DockerEnvVarImpl>
-                <option name="name" value="POSTGRES_PASSWORD" />
-                <option name="value" value="333333" />
-              </DockerEnvVarImpl>
-              <DockerEnvVarImpl>
-                <option name="name" value="POSTGRES_DB" />
-                <option name="value" value="test_db" />
-              </DockerEnvVarImpl>
-            </list>
-          </option>
-          <option name="imageTag" value="postgres:latest" />
-          <option name="startBrowserSettings">
-            <browser url="http://127.0.0.1" />
-          </option>
-        </settings>
-      </deployment>
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Docker.Docker Image" />
       <item itemvalue="Python.psycopg2_test" />
       <item itemvalue="Python.pymongo_test" />
       <item itemvalue="Python.get_tags" />
       <item itemvalue="Python.3get_detail_page" />
+      <item itemvalue="Python.douban_table" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.douban_table" />
         <item itemvalue="Python.3get_detail_page" />
         <item itemvalue="Python.get_tags" />
         <item itemvalue="Python.pymongo_test" />
         <item itemvalue="Python.psycopg2_test" />
-        <item itemvalue="Docker.Docker Image" />
       </list>
     </recent_temporary>
   </component>
@@ -516,7 +496,7 @@
       <window_info anchor="bottom" id="Database Console" weight="0.329718" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.25813448" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.0" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -525,7 +505,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053304" side_tool="true" weight="0.32936078" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.686551" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.34273317" />
       <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.49946696" weight="0.159436" />
       <window_info anchor="bottom" id="File Transfer" order="13" weight="0.3286334" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -542,51 +522,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/request/rabbitmq_demo/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="19" column="45" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/request/kafka_demo/docker-compose.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="33" column="63" lean-forward="true" selection-start-line="33" selection-start-column="63" selection-end-line="33" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitmq_demo/1. no_exchange/1. no_ack/producer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/-295906927/-337502517/pika/adapters/blocking_connection.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="1586" column="30" selection-start-line="1586" selection-start-column="22" selection-end-line="1586" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitmq_demo/1. no_exchange/1. no_ack/consumer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/request/python-dev/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="620">
-          <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/request/rabbitmq_demo/1.no_exchange/3.no_ack/consumer.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/request/rabbitmq_demo/1.no_exchange/1.basic_demo/consumer.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
@@ -824,13 +759,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data_dealWith/database/psycopg2_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="72" column="30" lean-forward="true" selection-start-line="72" selection-start-column="30" selection-end-line="72" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data_dealWith/database/pymysql_test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -838,14 +766,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data_dealWith/douban/2get_multi_pages.py">
+    <entry file="file://$PROJECT_DIR$/data_dealWith/douban/get_multi_pages2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="900">
           <caret line="46" selection-start-line="46" selection-end-line="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data_dealWith/douban/2get_one_page.py">
+    <entry file="file://$PROJECT_DIR$/data_dealWith/douban/get_one_page2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="460">
           <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
@@ -855,10 +783,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data_dealWith/douban/1get_tags.py">
+    <entry file="file://$PROJECT_DIR$/data_dealWith/douban/get_tags1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
           <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_dealWith/douban/get_detail_page3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
@@ -872,25 +810,73 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data_dealWith/douban/3get_detail_page.py">
+    <entry file="file://$PROJECT_DIR$/data_dealWith/douban/data_type4.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        <state relative-caret-position="200">
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data_dealWith/douban/4data_type.py">
+    <entry file="file://$PROJECT_DIR$/data_dealWith/sqlalchemy_code/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
-          <caret line="165" column="41" lean-forward="true" selection-start-line="165" selection-start-column="41" selection-end-line="165" selection-end-column="41" />
+        <state relative-caret-position="440">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
           <folding>
-            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_dealWith/database/psycopg2_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1440">
+          <caret line="72" column="30" lean-forward="true" selection-start-line="72" selection-start-column="30" selection-end-line="72" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_dealWith/sqlalchemy_code/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#0#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_dealWith/mongoengine_code/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="980">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doubanBookSpider/doubanBookSpider/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" column="28" lean-forward="true" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doubanBookSpider/doubanBookSpider/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="91" column="23" lean-forward="true" selection-start-line="91" selection-start-column="23" selection-end-line="91" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doubanBookSpider/spider/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" column="28" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_dealWith/mongoengine_code/main.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
